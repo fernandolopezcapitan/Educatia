@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Educatia</string>
+    <string name="login_email">E-mail:</string>
+    <string name="login_contraseña">Contraseña:</string>
+    <string name="login_entrar">Entrar</string>
+    <string name="login_olvide">Olvidé mi contraseña</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_mi_perfil">Mi perfil</string>
+    <string name="nav_calendario">Calendario</string>
+    <string name="nav_mi_horario">Mi horario</string>
+    <string name="nav_mis_ausencias">Mis ausencias</string>
+    <string name="nav_otros">Otras etiquetas</string>
+    <string name="nav_ajustes">Ajustes y preferencias</string>
+    <string name="nav_cerrar_sesion">Cerrar sesión</string>
+
+    <string name="menu_mi_perfil">Mi perfil</string>
+    <string name="menu_calendario">Calendario</string>
+    <string name="menu_mi_horario">Mi horario</string>
+    <string name="menu_mis_ausencias">Mis ausencias</string>
+    <string name="menu_ajustes">Ajustes y preferencias</string>
+
+    <string name="miperfil_nombre">Nombre:</string>
+    <string name="miperfil_abreviatura">Abreviatura:</string>
+    <string name="miperfil_nombreC">Nombre completo:</string>
+    <string name="miperfil_usuario">Usuario:</string>
+    <string name="miperfil_contrasena">Contraseña:</string>
+    <string name="miperfil_email">Email:</string>
+    <string name="miperfil_btn_cancelar">Cancelar</string>
+    <string name="miperfil_btn_guardar">Guardar</string>
+
+    <string name="action_settings">Ajustes</string>
+
+</resources>

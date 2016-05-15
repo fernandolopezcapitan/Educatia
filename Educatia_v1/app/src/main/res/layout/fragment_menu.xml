@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.salesianostriana.dam.educatia_v1.MenuFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/menu_mi_perfil"
+            android:id="@+id/btn_mi_perfil"
+            android:layout_margin="2dp"
+            android:textColor="#00AB92"
+            android:textSize="20dp"
+            android:background="@drawable/buttonshape_login_entrar" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/menu_calendario"
+            android:layout_margin="2dp"
+            android:id="@+id/btn_calendario"
+            android:textColor="#00AB92"
+            android:textSize="20dp"
+            android:background="@drawable/buttonshape_login_entrar" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/menu_mi_horario"
+            android:layout_margin="2dp"
+            android:id="@+id/btn_mi_horario"
+            android:textColor="#00AB92"
+            android:textSize="20dp"
+            android:background="@drawable/buttonshape_login_entrar" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/menu_mis_ausencias"
+            android:layout_margin="2dp"
+            android:id="@+id/btn_mis_ausencias"
+            android:textColor="#00AB92"
+            android:textSize="20dp"
+            android:background="@drawable/buttonshape_login_entrar" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/menu_ajustes"
+            android:layout_margin="2dp"
+            android:id="@+id/btn_ajustes"
+            android:textColor="#00AB92"
+            android:textSize="20dp"
+            android:background="@drawable/buttonshape_login_entrar" />
+
+    </LinearLayout>
+
+</FrameLayout>

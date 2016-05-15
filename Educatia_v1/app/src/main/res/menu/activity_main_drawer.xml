@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_mi_perfil"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/nav_mi_perfil" />
+        <item android:id="@+id/nav_calendario"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="@string/nav_calendario" />
+        <item android:id="@+id/nav_mi_horario"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/nav_mi_horario" />
+        <item android:id="@+id/nav_mis_ausencias"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="@string/nav_mis_ausencias" />
+    </group>
+
+    <item android:title="@string/nav_otros">
+        <menu>
+            <item android:id="@+id/nav_ajustes"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="@string/nav_ajustes" />
+            <item android:id="@+id/nav_cerrar_sesion"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="@string/nav_cerrar_sesion" />
+        </menu>
+    </item>
+
+</menu>
