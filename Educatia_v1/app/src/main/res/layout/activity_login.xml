@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="#FFFFFF"
@@ -10,6 +10,10 @@
     tools:context=".LoginActivity"
     android:orientation="vertical">
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="150dp"
@@ -89,31 +93,35 @@
         android:orientation="horizontal"
         android:weightSum="1">
 
-        <Button
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:text="@string/login_entrar"
-            android:id="@+id/btn_entrar"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="35dp"
-            android:textColor="#00AB92"
-            android:textSize="20dp"
-            android:background="@drawable/buttonshape_login_entrar" />
-
     </LinearLayout>
+
+</LinearLayout>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_entrar"
+        android:id="@+id/btn_entrar"
+        android:textColor="#00AB92"
+        android:textSize="20dp"
+        android:background="@drawable/buttonshape_login_entrar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/olvide" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:text="@string/login_olvide"
+        android:layout_margin="5dp"
         android:id="@+id/olvide"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#00AB92"
         android:layout_gravity="center_horizontal"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
 
 
-</LinearLayout>
+</RelativeLayout>

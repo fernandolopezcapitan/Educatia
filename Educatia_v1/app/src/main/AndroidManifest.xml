@@ -20,6 +20,14 @@
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity android:name=".MenuActivity" >
+        </activity>
+        <activity android:name=".MiPerfilActivity" >
+        </activity>
+        <activity android:name=".CalendarioActivity" >
+        </activity>
+        <activity android:name=".MiHorarioActivity" >
+        </activity>
     </application>
 
 </manifest>

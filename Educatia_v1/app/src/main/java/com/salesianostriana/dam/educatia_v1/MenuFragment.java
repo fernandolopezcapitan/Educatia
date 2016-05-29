@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import java.security.Permission;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -39,6 +41,8 @@ public class MenuFragment extends Fragment {
         mi_perfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent i = new Intent(getActivity(),MiPerfilActivity.class);
+                startActivity(i);
                 //FragmentManager FM = get;
                 /*FragmentTransaction ft = getFragmentManager().beginTransaction();
                 Fragment f = new MiperfilFragment();
@@ -57,7 +61,8 @@ public class MenuFragment extends Fragment {
         calendario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Fragment f = new CalendarioFragment();
+                Intent i = new Intent(getActivity(),CalendarioActivity.class);
+                startActivity(i);
             }
         });
         mi_horario.setOnClickListener(new View.OnClickListener() {
@@ -81,6 +86,5 @@ public class MenuFragment extends Fragment {
 
         return view;
     }
-
 
 }
